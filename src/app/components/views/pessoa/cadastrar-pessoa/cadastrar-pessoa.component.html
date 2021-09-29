@@ -1,0 +1,21 @@
+<a routerLink="/pessoa/listar">Lista Pessoas</a>
+<p></p>
+
+    <div id="nome">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" [(ngModel)]="nome" />
+    </div>
+    <div id="email">
+        <label for="email">E-mail:</label>
+        <input type="text" name="email" [(ngModel)]="email" />
+    </div>
+    <div id="naturalidade">
+        <label for="naturalidade">Naturalidade:</label>
+        <input type="text" name="naturalidade" [(ngModel)]="naturalidade" />
+    </div>
+    <div id="idade">
+        <label for="idade">Idade:</label>
+        <input type="text" name="idade" [(ngModel)]="idade" />
+    </div>
+
+<button (click)="cadastrar()">Cadastrar</button>

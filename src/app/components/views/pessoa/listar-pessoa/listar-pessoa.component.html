@@ -1,0 +1,11 @@
+<a routerLink="/pessoa/cadastrar">Cadastrar Nova Pessoa</a>
+
+<ol>
+    <li *ngFor="let pessoa of pessoas">
+        {{ pessoa.nome }} | 
+        {{ pessoa.email }} |
+        {{ pessoa.naturalidade }} |
+        {{ pessoa.idade }} |
+        {{ pessoa.cadastradoEm }}
+    </li>
+</ol>
